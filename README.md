@@ -51,7 +51,7 @@
 	<input type="text" name="surname" value="Тилев">
 	<input type="text" name="phone" value="+7 (916) 123-45-67">
 	<input type="text" name="email" value="support@artegofinans.ru">
-	<input type="hidden" name="key" value="mM27EwM6zd9QB4a9lLP0m4iV3zJf2FN8">
+	<input type="hidden" name="key" value="ваш-ключ-выданный-при-запросе">
 	<input type="hidden" name="af_data" value="data">
 	<input type="submit">
 </form>
@@ -66,3 +66,5 @@ http://www.yoursite.ru/credit/?status=done
 http://www.yoursite.ru/credit/?status=error&phone=Введите+номер+телефона
 
 http://www.yoursite.ru/credit/?status=error&error=Система+временно+недоступна
+
+Также можно использовать AJAX запрос - для этого в заголовках запроса нужно добавить `Accept: application/json`. В этом случае ответ будет в виде json масива. Поля такие же, как и при HTTP запросе/ответе.
