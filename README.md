@@ -14,7 +14,7 @@
 
 - **type** - тип кредита (обязательное поле); возможные значения: `7` - Кредит бизнесу; `12` - Потребительский кредит; `15` - Залог автомобиля; `8` - Залог недвижимости; `9` - Рефинансирование; `10` - Ипотека
 - **summ** - сумма кредита
-- **name** - Имя
+- **firstname** - Имя
 - **surname** - Фамилия
 - **phone** - телефон для связи (обязательное поле); формат +7 и символы 0-9()- и пробел
 - **email** - email для связи
@@ -47,7 +47,7 @@
 		<option value="10">Ипотека</option>
 	</select>
 	<input type="text" name="summ" value="1000000">
-	<input type="text" name="name" value="Ивайло">
+	<input type="text" name="firstname" value="Ивайло">
 	<input type="text" name="surname" value="Тилев">
 	<input type="text" name="phone" value="+7 (916) 123-45-67">
 	<input type="text" name="email" value="support@artegofinans.ru">
