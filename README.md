@@ -6,7 +6,7 @@
 
 ## Форма для отправки заявки на сервер АРТЕГОФинанс.
 
-Форма должна быть отправлена на адрес https://artegofinans.ru/forms/creditapplication.php POST запросом.
+Форма должна быть отправлена на адрес `https://artegofinans.ru/forms/creditapplication.php` POST запросом.
 
 Внешний вид формы на Вашем сайте на Ваше усмотрение.
 
@@ -59,13 +59,13 @@
 
 ### Пример успешной отправки запроса:
 
-http://www.yoursite.ru/credit/?status=done
+`http://www.yoursite.ru/page/?status=done`
 
 ### Пример отправки запроса с ошибками:
 
-http://www.yoursite.ru/credit/?status=error&phone=Введите+номер+телефона
+`http://www.yoursite.ru/page/?status=error&phone=Введите+номер+телефона`
 
-http://www.yoursite.ru/credit/?status=error&error=Система+временно+недоступна
+`http://www.yoursite.ru/page/?status=error&error=Система+временно+недоступна`
 
 Также можно использовать AJAX запрос - для этого в заголовках запроса нужно добавить `Accept: application/json`. В этом случае ответ будет в виде json масива. Поля такие же, как и при HTTP запросе/ответе.
 
