@@ -59,13 +59,13 @@
 
 ### Пример успешной отправки запроса:
 
-`http://www.yoursite.ru/page/?status=done`
+`http://www.site.ru/page/?status=done`
 
 ### Пример отправки запроса с ошибками:
 
-`http://www.yoursite.ru/page/?status=error&phone=Введите+номер+телефона`
+`http://www.site.ru/page/?status=error&phone=Введите+номер+телефона`
 
-`http://www.yoursite.ru/page/?status=error&error=Система+временно+недоступна`
+`http://www.site.ru/page/?status=error&error=Система+временно+недоступна`
 
 Также можно использовать AJAX запрос - для этого в заголовках запроса нужно добавить `Accept: application/json`. В этом случае ответ будет в виде json масива. Поля такие же, как и при HTTP запросе/ответе.
 
