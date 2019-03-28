@@ -36,7 +36,7 @@
 
 ```html
 <form method="post" action="https://artegofinans.ru/forms/creditapplication.php">
-	<select name="credit">
+	<select name="type">
 		<option value="0">Выбрать</option>
 		<option value="7">Кредит бизнесу</option>
 		<option value="12">Потребительский кредит</option>
